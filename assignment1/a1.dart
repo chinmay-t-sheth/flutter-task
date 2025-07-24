@@ -5,10 +5,9 @@ void main() {
   print('Enter your name:');
   String? name = stdin.readLineSync();
 
-  // Ask for user's age
+  // Ask for user's age and parse it on the same line
   print('Enter your age:');
-  String? ageInput = stdin.readLineSync();
-  int age = int.parse(ageInput!);
+  int age = int.parse(stdin.readLineSync()!);
 
   // Calculate years left until 100
   int yearsLeft = 100 - age;
