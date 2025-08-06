@@ -1,0 +1,24 @@
+name: flutter_login_app
+description: A beginner-level Flutter app with splash screen, login, menu selection, and dashboard.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Add other dependencies here if needed
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  # Uncomment if you add assets (like images)
+  # assets:
+  #   - assets/logo.png
