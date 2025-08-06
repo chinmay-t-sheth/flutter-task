@@ -20,4 +20,3 @@ flutter pub get
 flutter run
 ```
 
-> Don't forget to add your logo image in the `assets/` folder and declare it in `pubspec.yaml`
