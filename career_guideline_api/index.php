@@ -2,6 +2,7 @@
 header('Content-Type: application/json');
 echo json_encode([
   "status"=>"Career Guideline API is Running 🚀",
+  "developer" => "Chinmay",             
   "available_endpoints"=>[
     "POST /endpoints/auth/register.php",
     "POST /endpoints/auth/login.php",
